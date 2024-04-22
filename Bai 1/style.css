@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    display: flex;
+}
+
+.navBar{
+    height: 100vh;
+    width: 13vw;
+    background-color: #474d5d;
+    flex-shrink: 0;
+}
+
+.navBar ul li{
+    color: #b9b5b4;
+    list-style: none;
+    padding: 15px;
+    border: 1px solid;
+    border-color: #4a5663;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #b9b5b4;
+}
+
+.navBar ul li:hover{
+    background-color: #2abba7;
+    cursor: pointer;
+}
+
+.navBar ul li a:hover{
+    color: white;
+}
+
+
+.navBar ul li:active{
+    background-color: #2abba7;
+    cursor: pointer;
+}
+
+.navBar ul li a:active{
+    color: white;
+}
+
+.navBar ul li:last-child{
+    border-bottom: none;
+}
+
+.navBarHeader{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #354253;
+    gap: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.mainHeader{
+    color: #9b9a9b;
+    padding-bottom: 20px;
+}
+
+.mainHeader h2{
+    font-weight: lighter;
+}
+
+.login{
+    padding: 10px;
+    width: 100vw;
+    background-color: #eff7ef;
+    border-left: 2px solid #dedbd7;
+}
+
+.stat{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statHeader{
+    color: #5f6068;
+}
+.card{
+    background-color: #6c9ec6;
+    color: white;
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardBody,
+.cardFooter{
+    padding: 10px;
+}
+
+.cardBody{
+    margin: auto 0px auto 0px;
+    text-align: right;
+}
+.cardFooter{
+    background-color: #619ac1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(25vw - 80px);
+    margin-bottom: 20px;
+}
+
+.c2,
+.c7{
+    background-color: #e9716d;
+}
+
+.c2 .cardFooter,
+.c7 .cardFooter{
+    background-color: #e56762;
+}
+
+.c3,
+.c6{
+    background-color: #53bfb9;
+}
+
+.c3 .cardFooter,
+.c6 .cardFooter{
+    background-color: #4db4ae;
+}
+
+.c4,
+.c5,
+.c8 {
+    background-color: #9988b4;
+}
+
+.c4 .cardFooter,
+.c5 .cardFooter,
+.c8 .cardFooter{
+    background-color: #8e7ea9;
+}   
+
+.card h1{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.card h2{
+    font-size: 1.5em;
+    font-weight: 100;
+}

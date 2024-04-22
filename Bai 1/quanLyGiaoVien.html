@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/qlgv.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="navBar">
+            <nav class="navBar">
+                <a class="navBarHeader" href="/index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house" viewBox="0 0 16 16">
+                        <path
+                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                    </svg>
+                    <p>Trang chủ</p>
+                </a>
+                <ul>
+                    <li><a href="#">Quản lý khoa</a></li>
+                    <li><a href="#">Quản lý chuyên ngành</a></li>
+                    <li><a href="#">Quản lý hệ đào tạo</a></li>
+                    <li><a href="#">Quản lý niên khoá</a></li>
+                    <li><a href="#">Quản lý lớp</a></li>
+                    <div>
+                        <li><a href="/quanLyGiaoVien.html">Quản lý giáo viên</a></li>
+                    </div>
+                    <li><a href="#">Quản lý hội đồng</a></li>
+                    <li><a href="#">Quản lý sinh viên</a></li>
+                    <li><a href="#">Danh sách đồ án</a></li>
+                    <li><a href="#">Quản lý</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="mainHeader">
+                <p>Home > Giáo viên ></p>
+                <button>Thêm mới</button>
+            </div>
+            <div class="mainBody">
+                <div class="mainFunction">
+                    <select name="" id="khoa">
+                        <option value="" selected>-- Chọn khoa -- </option>
+                        <option value="">Khoa Công nghệ thông tin</option>
+                        <option value="">Khoa Kỹ thuật</option>
+                        <option value="">Khoa Kinh tế</option>
+                    </select>
+                    <select name="" id="chuyenNganh">
+                        <option value="" selected>-- Chọn chuyên ngành -- </option>
+                        <option value="">Công nghệ thông tin</option>
+                        <option value="">Kỹ thuật phần mềm</option>
+                        <option value="">Kỹ thuật máy tính</option>
+                    </select>
+                    <button>Tìm kiếm</button>
+                    <button>Làm mới</button>
+                </div>
+                <div class="mainTable">
+                    <p class="tableHeader">
+                        Quản lý giáo viên
+                    </p>
+                    <div class="centerTable">
+                        <table>
+                            <tr>
+                                <th>Hình ảnh</th>
+                                <th>Tên giáo viên</th>
+                                <th>Thông tin</th>
+                                <th>Khoa</th>
+                                <th>Chuyên ngành</th>
+                                <th>Thao tác</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/studentImg/image1.png" alt="">
+                                </td>
+                                <td>Bùi Thị Như</td>
+                                <td>
+                                    <ul>
+                                        <li>0995496181</li>
+                                        <li>buinhu@gmail.com</li>
+                                        <li>Thanh Bình - Thanh Hà - Hải Dương</li>
+                                        <li>Đại học Công nghệ Giao Thông Vận Tải</li>
+                                        <li>Ngày sinh: 1986 - 03 - 12</li>
+                                        <li>Trí tuệ nhân tạo</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Công nghệ thông tin
+                                </td>
+                                <td>
+                                    Hệ thống thông tin
+                                </td>
+                                <td>
+                                    <button>Sửa</button>
+                                    <button>Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/studentImg/image2.png" alt="">
+                                </td>
+                                <td>Nguyễn Văn A</td>
+                                <td>
+                                    <ul>
+                                        <li>0987654321</li>
+                                        <li>nguyenvana@gmail.com</li>
+                                        <li>Quận 1, TP.HCM</li>
+                                        <li>Đại học ABC</li>
+                                        <li>Ngày sinh: 1990-01-01</li>
+                                        <li>Khoa học máy tính</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Khoa A
+                                </td>
+                                <td>
+                                    Chuyên ngành A
+                                </td>
+                                <td>
+                                    <button>Sửa</button>
+                                    <button>Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/studentImg/image3.png" alt="">
+                                </td>
+                                <td>Trần Thị B</td>
+                                <td>
+                                    <ul>
+                                        <li>0123456789</li>
+                                        <li>tranthib@gmail.com</li>
+                                        <li>Quận 2, TP.HCM</li>
+                                        <li>Đại học XYZ</li>
+                                        <li>Ngày sinh: 1995-05-05</li>
+                                        <li>Khoa học dữ liệu</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Khoa B
+                                </td>
+                                <td>
+                                    Chuyên ngành B
+                                </td>
+                                <td>
+                                    <button>Sửa</button>
+                                    <button>Xóa</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/studentImg/image4.png" alt="">
+                                </td>
+                                <td>Phạm Văn C</td>
+                                <td>
+                                    <ul>
+                                        <li>0369852147</li>
+                                        <li>phamvanc@gmail.com</li>
+                                        <li>Quận 3, TP.HCM</li>
+                                        <li>Đại học XYZ</li>
+                                        <li>Ngày sinh: 1998-08-08</li>
+                                        <li>Khoa học máy tính</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    Khoa C
+                                </td>
+                                <td>
+                                    Chuyên ngành C
+                                </td>
+                                <td>
+                                    <button>Sửa</button>
+                                    <button>Xóa</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
